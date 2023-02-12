@@ -1,0 +1,1077 @@
+QFrame#Main{
+                   background-color: #2C2E33;
+                   border:none;
+                   }
+
+QListWidget#main_wrd_lst{
+                  color:white;
+                  border: 1px solid #1D2026;
+                  background-color:#212329;
+
+                  }
+
+QListWidget#main_wrd_lst:item:hover{
+
+                  color:white;
+                  border:2px solid #3079ed;
+                  border-left:none;
+                  background:#32343D;
+                  border-top:none;
+                  border-bottom:none;
+                  padding-left:5px;
+                  }
+
+QListWidget#main_wrd_lst:item{
+                 background:none;
+                 border:1px solid #1D2026;
+                 border-left:none;
+                 border-right:none;
+                 border-top:none;
+
+                 }
+QListWidget#main_wrd_lst:item:selected{
+                  background:none;
+                  border:none;
+                  color:#4D90FE;
+                  border:1px solid #2C2E33;
+                  border-left:none;
+                  border-right:none;
+                  border-top:none;
+
+                  }
+QListWidget#main_wrd_lst:item:selected:hover{
+                   background:#1D1E24;
+                   border:2px solid white;
+                   border-left:none;
+                   border-top:none;
+                   border-bottom:none;
+                   }
+
+QScrollBar {
+
+                   background-color:#2C2E33;
+                   border:none;
+                   background:none;
+                   border-radius:10;
+
+                   }
+QScrollBar:handle{
+                   background: #36383E;
+                   border-radius:15;
+                  }
+
+QPushButton#sujest_expand_btn{
+                   border: 1px solid #1D2026;
+                   background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/expand_btn-commen.png");
+                   }
+QPushButton#sujest_expand_btn:hover{
+                   background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/expand_btn.png");
+                   border: 1px solid #1D2026;
+                   border-bottom:none;
+                   }
+
+QListWidget#sujest_list{
+                   color:#5C616C;
+                   border: 1px solid #1D2026;
+                   background-color:#212329;
+
+                   }
+QListWidget#sujest_list:item:hover{
+                   color:white;
+                   border:2px solid #3079ed;
+                   border-left:none;
+                   background:#32343D;
+                   border-top:none;
+                   border-bottom:none;
+                   padding-left:5px;
+
+                   }
+QListWidget#sujest_list:item{
+                   background:none;
+                   border:1px solid #1D2026;
+                   border-left:none;
+                   border-right:none;
+                   border-top:none;
+
+                   }
+QListWidget#sujest_list:item:selected{
+                   background:none;
+                   border:none;
+                   color:#4D90FE;
+                   border:1px solid #2C2E33;
+                   border-left:none;
+                   border-right:none;
+                   border-top:none;
+                   }
+
+QListWidget#sujest_list:item:selected:hover{
+                   background:#1D1E24;
+                   border:2px solid white;
+                   border-left:none;
+                   border-top:none;
+                   border-bottom:none;
+                   }
+QListWidget#hstry_box{
+                   color:white;
+                   background-color:#1D2026;
+                   border: 1px solid #1A1B21;
+                   }
+QListWidget#history_box{
+                   background-color:#1D2026;
+                   border: 1px solid #1A1B21;
+                   }
+
+QPushButton#sujest_colaps_btn{
+                   border: 1px solid #1D2026;
+                   background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/expand_btn-commen.png");
+                   }
+
+QPushButton#sujest_colaps_btn:hover{
+                   border: 1px solid #1D2026;
+                   background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/expand_btn-r.png");
+                   }
+
+QFrame#boder_line{
+                   background-color:#4C8EFA;
+                   }
+
+QLabel#stats_lbl{
+                   background-color:#1D2026;
+                   border: 1px solid #1A1B21;
+                   }
+QLabel#switch_lbl_eng{
+                   background-color:none;
+                   border: none;
+                   color:white;
+                   }
+QLabel#switch_lbl_eng_active{
+                   background-color:none;
+                   border: none;
+                   color:#4D90FE;
+                   }
+QLabel#switch_lbl_si{
+                   background-color:none;
+                   border: none;
+                   color:white;
+                   }
+QLabel#switch_lbl_si_active{
+                   background-color:none;
+                   border: none;
+                   color:#4D90FE;
+                   }
+QFrame#switch_line{
+                   background-color:#565A6B;
+                   }
+QFrame#switch_line1{
+                    background-color:#565A6B;
+                    }
+QPushButton#option_btn{
+                    background-color:#36383E;
+                    border: 1px solid #1D2026;
+                    }
+QPushButton#option_btn:hover{
+
+                      }
+
+QPushButton#option_btn_active{
+                    background-color:#36383E;
+                    color:#4D90FE;
+                    border: 1px solid #4D90FE;
+                    }
+QPushButton#option_btn_active:hover{
+
+                      }
+
+QPushButton#option_btn1{
+                     background-color:#36383E;
+                     border: 1px solid #1D2026;
+                     }
+QPushButton#option_btn1:hover{
+
+                      }
+
+QPushButton#option_btn1_active{
+                     background-color:#36383E;
+                     color:#4D90FE;
+                     border: 1px solid #4D90FE;
+                     }
+QPushButton#option_btn1_active:hover{
+
+                      }
+
+QPushButton#radio_btn2{
+                      background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch-active-r.png");
+
+                      border:none;
+                      }
+QPushButton#radio_btn2_clicked{
+                      background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch-active.png");
+
+                      border:none;
+                      }
+QPushButton#dock_expand_btn{
+                      background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/dock_expand.png");
+                      border: 1px solid #1D2026;
+                      }
+QPushButton#dock_expand_btn:hover{
+                      background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/dock_expand-d.png");
+
+                       }
+QPushButton#dock_expand_btn_active{
+                      background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/dock_expand.png");
+                      border: 1px solid #1D2026;
+                      }
+QPushButton#dock_expand_btn_active:hover{
+                      background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/dock_expand-u.png");
+
+                       }
+QFrame#dock_frame{
+                       background-color:#36383E;
+                       border: none;
+
+                       }
+QPushButton#about_btn{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/info.png");
+                       background-color:#36383E;
+                       background-repeat:none;
+                       color:white;
+                       border:none;
+
+                       }
+QPushButton#about_btn:hover{
+                       padding-right: 15px;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/info-hover.png");
+                       border-left:3px solid #3079ed;
+                       }
+QPushButton#key_btn{
+                       background-color:#36383E;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/keyboard-ico.png");
+                       background-repeat:none;
+                       color:white;
+                       border:none;
+
+                       }
+QPushButton#key_btn:hover{
+                       padding-right: 15px;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/keyboard-hover.png");
+                       border-left:3px solid #3079ed;
+                       }
+QPushButton#setting_btn{
+                       background-color:#36383E;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/settings-1.png");
+                       background-repeat:none;
+                       color:white;
+                       border:none;
+
+                       }
+QPushButton#setting_btn:hover{
+                       padding-right: 15px;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/settings-1-hover.png");
+                       border-left:3px solid #3079ed;
+                       }
+QPushButton#ocr_btn{
+                       background-color:#36383E;
+                       background-repeat:none;
+                       color:white;
+                       border:none;
+
+                       }
+QPushButton#ocr_btn:hover{
+                       padding-right: 15px;
+                       border-left:3px solid #3079ed;
+                       }
+QPushButton#index_btn{
+                       background-color:#36383E;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/index-1.png");
+                       background-repeat:none;
+                       color:white;
+                       border:none;
+
+                       }
+QPushButton#index_btn:hover{
+                       padding-right: 15px;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/index-1-hover.png");
+                       border-left:3px solid #3079ed;
+                       }
+
+QDialog#TitleBar{
+                       background: #36383E;
+                       color:black;
+                       font:12px bold;
+                       font-weight:bold;
+                       border-radius: 1px;
+                       height: 11px;
+                       opacity:0.5;
+                       }
+
+QToolButton#minimize_btn{
+                       background-image:url('theme/dark_theme/asset/titlebutton-minimize-active.png');
+                       border: none;
+                       border-radius:10px;
+                       }
+QToolButton#minimize_btn:hover{
+                       background-image:url('theme/dark_theme/asset/titlebutton-minimize-hover.png');
+                       }
+
+QToolButton#maxmize_btn{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-maximize-active.png");
+                       border: none;
+                       border-radius:10px;
+                       }
+QToolButton#maxmize_btn:hover{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-maximize-hover.png");
+                       }
+QToolButton#close_btn{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-close-active.png");
+                       border: none;
+                       border-radius:10px;
+                       }
+QToolButton#close_btn:hover{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-close-hover.png");
+                       }
+QToolButton#tray_btn{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-restore-active.png");
+                       border: none;
+                       border-radius:10px;
+                       }
+QToolButton#tray_btn:hover{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-restore-hover.png");
+                       }
+QLineEdit#txt_input{
+                       color:black;
+                       border: 1px solid #3079ed;
+                       border-right:none;
+                       padding: 0.5px 20px;
+                       margin: 2px 2px;
+                       margin-right:0px;
+                       background-color:white;
+                       border-radius: 10px;
+                       border-top-right-radius: 0px;
+                       border-bottom-right-radius: 0px;
+
+
+                       }
+QLineEdit#txt_input:hover{
+                       color:#3079ed;
+                       }
+QPushButton#speaker_btn{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/speaker_e.png");
+                       border: 1px solid #3079ed;
+                       background-repeat:none;
+                       color: #fff;
+                       background-color: #4d90fe;
+
+                       }
+QPushButton#serch_btn{
+
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/search_e4.png");
+                       background-repeat:none;
+                       margin: 1px 1px;
+                       margin-left:0px;
+                       margin-right:1px;
+                       border: 1px solid #3079ed;
+                       border-left:none;
+                       color: #fff;
+                       background-color: #4d90fe;
+                       position:relative;
+                       border-radius:10;
+                       border-top-left-radius: 0px;
+                       border-bottom-left-radius: 0px;
+
+                       }
+QLabel#span_lbl{
+                       background-color:none;
+                       }
+QDialog{
+                       border:none;
+                       background-color: #2C2E33;
+                       }
+
+QLabel#opt_lbl{           color: white;
+                       padding-left:1px;
+                       }
+
+QPushButton#btn1{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch.png");
+                       border:none;
+                       }
+
+QPushButton#btn1_active{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch-active.png");
+                       border:none;
+                       }
+
+QPushButton#btn2{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch.png");
+                       border:none;
+                       }
+
+QPushButton#btn2_active{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch-active.png");
+                       border:none;
+                       }
+
+QPushButton#btn3{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch.png");
+                       border:none;
+                       }
+
+QPushButton#btn3_active{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch-active.png");
+                       border:none;
+                       }
+QPushButton#btn4{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch.png");
+                       border:none;
+                       }
+
+QPushButton#btn4_active{
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/switch-active.png");
+                       border:none;
+                       }
+
+QComboBox#combo4{
+                       background-color:#2C2E33;
+                       border:1px solid #1A1B21;
+                       color:white;
+                       padding-left:5px;
+                       margin-left:5px;
+                       }
+
+QComboBox#combo4:drop-down{
+                       background-color:#36383E;
+                       color: white;
+                       padding:2px;
+
+                       }
+QComboBox#combo4:item{
+                       color: white;
+                       font-weight: bold;
+
+                       }
+
+QComboBox#combo4:item:selected{
+
+                       color: #4D90FE;
+                       font-weight: bold;
+
+                       }
+QListView#combo4{
+                       font-weight:bold;
+                       }
+
+
+QComboBox#font_combo5{
+                       background-color:#2C2E33;
+                       border:1px solid #1A1B21;
+                       color:white;
+                       padding-left:5px;
+                       margin-left:5px;
+                       font-weight:bold;
+                       }
+
+QComboBox#font_combo5:drop-down{
+                       background-color:#36383E;
+                       color: white;
+                       padding:2px;
+
+                       }
+
+QComboBox#font_combo5:item{
+
+                       color: white;
+                       }
+
+QComboBox#font_combo5:item:selected{
+
+                       color: #4D90FE;
+                       font-weight: bold;
+
+
+                       }
+
+QListView#font_combo5{
+                       font-weight:bold;
+
+                       }
+
+
+QComboBox#spin_box5{
+                       background-color:#2C2E33;
+                       border:1px solid #1A1B21;
+                       color:white;
+                       padding-left:5px;
+                       margin-left:5px;
+                       }
+
+QComboBox#spin_box5:drop-down{
+                       background-color:#36383E;
+                       color: white;
+                       padding:2px;
+
+                       }
+QComboBox#spin_box5:item{
+                       color: white;
+
+
+                       }
+
+QComboBox#spin_box5:item:selected{
+
+                       color: #4D90FE;
+                       font-weight: bold;
+
+                       }
+
+QListView#spin_box5{
+                       font-weight:bold;
+                       }
+
+QPushButton#ok_btn{
+                       background-color:#36383E;
+                       border: 1px solid #1D2026;
+                       color:white;
+
+                       }
+
+QPushButton#ok_btn:hover{
+
+                       color:#4C8EFA;
+                       }
+
+QFrame#line1{background-color:#BFBFBF;}
+QFrame#line1_active{background-color:#4C8EFA;}
+QFrame#line2{background-color:#BFBFBF;}
+QFrame#line2_active{background-color:#4C8EFA;}
+QFrame#line3{background-color:#BFBFBF;}
+QFrame#line3_active{background-color:#4C8EFA;}
+
+QFrame#line4{background-color:#4C8EFA;}
+QFrame#line5{background-color:#4C8EFA;}
+
+
+QDialog#default_title_bar{
+                       font-size:12px;
+                       background-color: #36383E;
+                       color: black;
+                       opacity:0.5;
+                       margin: 0px 0px;
+                       }
+
+QFrame#default_title_line{background-color:#4C8EFA;}
+
+QLabel#title_lbl{
+                       color:white;
+                       }
+
+QToolButton#default_close_btn{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-close-active.png");
+                       border: none;
+                       border-radius:10px;
+                       padding-right: 5px;
+
+                       }
+QToolButton#default_close_btn:hover{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/titlebutton-close-hover.png");
+                       }
+
+QFrame#BaloonWindow{background-color:#2C2E33;
+                       color:white;
+                       font-size:16px;
+                       border: 1px solid #2C2E33;
+                       padding-left:1px;
+
+                       }
+QScrollBar#BaloonWindow:vertical{
+                       background-color:#2C2E33;
+                       border:none;
+                       background:none;
+                       }
+
+QScrollBar#BaloonWindow::handle:vertical {
+                       background: #36383E;
+                       min-height: 20px;
+                       }
+
+QPlainTextEdit#baloon_txt_area{
+
+                       background-color:#2C2E33;
+                       color:white;
+                       border:none;
+                       }
+
+QDialog#baloon_title_bar{
+
+                       background: #36383E;
+                       color:black;
+                       font:12px bold;
+                       font-weight:bold;
+                       border-radius: 1px;
+                       height: 11px;
+                       opacity:0.5;
+
+                       }
+QLabel#baloon_lbl{
+                       background-color:none;
+                       border: none;
+                       color:white;
+                       padding-right:10px;
+                       }
+
+QFrame#Mini_Mod{
+                       background-color: #2C2E33;
+                       border:none;
+                       }
+
+QListWidget#mini_mod_list{
+                       color:#B5BAC7;
+                       background-color:#2C2E33;
+                       border:none;
+
+                       }
+
+QListWidget#mini_mod_list:item:hover{
+                       color:white;
+                       border:2px solid #3079ed;
+                       border-left:none;
+                       background:#32343D;
+                       border-top:none;
+                       border-bottom:none;
+                       padding-left:5px;
+
+                       }
+QListWidget#mini_mod_list:item{
+                       background:none;
+
+                       }
+
+QListWidget#mini_mod_list:item:selected{
+                       background:none;
+                       border:none;
+                       color:#4D90FE;
+                       border:1px solid #2C2E33;
+                       border-left:none;
+                       border-right:none;
+                       border-top:none;
+
+                       }
+
+QListWidget#mini_mod_list:item:selected:hover{
+
+                       background:#1D1E24;
+                       border:2px solid white;
+                       border-left:none;
+                       border-top:none;
+                       border-bottom:none;
+                       }
+
+QScrollBar{
+
+                       background-color:#2C2E33;
+                       border:none;
+                       background:none;
+                       border-radius:10;
+
+                       }
+
+QScrollBar:handle{
+                       background: #36383E;
+                       border-radius:15;
+                       }
+
+QLabel#minimod_stat_lbl{
+                       background-color:#36383E;
+                       }
+
+QDialog#Mini_Mod_TitleBar{
+                       background: #36383E;
+                       color:black;
+                       font:12px bold;
+                       font-weight:bold;
+                       border-radius: 1px;
+                       height: 11px;
+                       opacity:0.5;
+                       }
+
+QToolButton#mini_mod_maxmize_btn{
+                       background-color:#26B65F;
+                       border: none;
+                       }
+QToolButton#mini_mod_maxmize_btn:hover{
+                       background-color:#4ECF81;
+
+                       }
+
+QToolButton#mini_mod_close_btn{
+                       background-color:#E33943;
+                       border: none;
+                       }
+
+QToolButton#mini_mod_close_btn:hover{
+                       background-color:#EB636B;
+                       }
+
+QToolButton#mini_mod_tray_btn{
+                       background-color:#463182;
+                       border: none;
+                       }
+QToolButton#mini_mod_tray_btn:hover{
+                       background-color:#7459C2;
+                       }
+
+QLineEdit#mini_mod_txt_input{
+                       color:black;
+                       border: 1px solid #3079ed;
+                       border-right:none;
+                       border-left:none;
+                       padding: 0.5px 20px;
+                       margin: 2px 2px;
+                       margin-right:0px;
+                       margin-left:0px;
+                       background-color:white;
+                       border-radius: 0px;
+                       border-top-right-radius: 0px;
+                       border-bottom-right-radius: 0px;
+
+
+                       }
+QLineEdit#mini_mod_txt_input:hover{
+
+                       color:#3079ed;
+                       }
+
+QPushButton#mini_mod_speaker_btn{
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/speaker_e.png");
+                       border: 1px solid #3079ed;
+                       border-right:none;
+                       background-repeat:none;
+                       color: #fff;
+                       background-color: #4d90fe;
+                       border-radius:10;
+                       border-top-right-radius: 0px;
+                       border-bottom-right-radius: 0px;
+
+
+                       }
+
+QPushButton#mini_mod_serch_btn{
+                       background-color:#4CAF50;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/search_e4.png");
+                       background-repeat:none;
+                       margin: 1px 1px;
+                       margin-left:0px;
+                       margin-right:1px;
+                       border: 1px solid #3079ed;
+                       border-left:none;
+                       color: #fff;
+                       background-color: #4d90fe;
+                       position:relative;
+                       border-radius:10;
+                       border-top-left-radius: 0px;
+                       border-bottom-left-radius: 0px;
+
+                       }
+
+QPushButton#mini_mod_oder_btn{
+                       border: 1px solid #3079ed;
+                       border-top:none;
+                       color: #fff;
+                       background-color: #4d90fe;
+                       margin-right:2px;
+                       margin-right:3px;
+                       margin-bottom:5px;
+
+                       }
+
+QPushButton#mini_mod_lang_change{
+                       border: 1px solid #3079ed;
+                       border-bottom:none;
+                       color: #fff;
+                       background-color: #4d90fe;
+                       margin-right:2px;
+                       margin-right:3px;
+                       margin-top:5px;
+
+
+                       }
+
+QPushButton#mini_mod_lang_change:hover{
+
+                       background-color:#244256;
+                       border: 1px solid #244256;
+
+                       }
+
+QPushButton#mini_mod_oder_btn:hover{
+
+                       background-color:#244256;
+                       border: 1px solid #244256;
+
+
+                       }
+QPushButton#Dragable_button{
+
+                       background-color:#4CAF50;
+                       background-repeat:none;
+                       border: 1px solid #212329;
+                       border-left:none;
+                       border-top:none;
+                       border-bottom:none;
+                       border-right:none;
+                       color: #fff;
+                       background-color: #4d90fe;
+                       position:relative;
+                       border-radius:0;
+                       border-top-right-radius: 0px;
+                       border-bottom-right-radius: 0px;
+
+                       }
+
+QPushButton#Grep_button{
+                       background-color:#4CAF50;
+                       background-repeat:none;
+                       border: 1px solid #212329;
+                       border-left:none;
+                       border-top:none;
+                       border-bottom:none;
+                       border-right:none;
+                       color: #fff;
+                       background-color: #36383E;
+                       position:relative;
+                       border-radius:0;
+                       border-top-right-radius: 0px;
+                       border-bottom-right-radius: 0px;
+
+                       }
+
+QPushButton#about_w_active{
+                       background:none;
+                       background-color:transparent;
+                       border:none;
+                       background-repeat:none;
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/about.png");
+                       }
+
+QPushButton#settings_w_active{
+                       background:none;
+                       background-color:transparent;
+                       border:none;
+                       background-repeat:none;
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/setting.png");
+                       }
+
+QPushButton#ocr_w_active{
+                       background:none;
+                       background-color:transparent;
+                       border:none;
+                       background-repeat:none;
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/ocr.png");
+                       }
+
+QPushButton#index_w_active{
+                       background:none;
+                       background-color:transparent;
+                       border:none;
+                       background-repeat:none;
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/ocr.png");
+                       }
+
+QPushButton#keyboard_w_active{
+                       background:none;
+                       background-color:transparent;
+                       border:none;
+                       background-repeat:none;
+                       border-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/key.png");
+                       }
+
+QLabel#keybord_lbl{
+
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/keyboard.png");
+                       }
+
+QLabel#keybord_lbl_shift{
+
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/keyboard_Shift.png");
+                       }
+
+
+QPushButton#shift_btn{
+                       border: 1px solid #1D2026;
+                       margin-left:20px;
+                       background-color:#36383E;
+                       color:white;
+                       font-weight:bold;
+                       font-size:30px;
+
+                       }
+QPushButton#shift_btn:hover{
+                       color:#4D90FE;
+                       border: 1px solid #4D90FE;
+
+                       }
+
+QPushButton#shift_btn1{
+                       border: 1px solid #1D2026;
+                       margin-right:20px;
+                       background-color:#36383E;
+                       color:white;
+                       font-weight:bold;
+                       font-size:30px;
+
+                       }
+
+QPushButton#shift_btn1:hover{
+                       color:#4D90FE;
+                       border: 1px solid #4D90FE;
+
+                       }
+
+QPushButton#shift_btn_active{
+                       border: 1px solid #1D2026;
+                       margin-left:20px;
+                       background-color:#4D90FE;
+                       color:white;
+                       font-weight:bold;
+                       font-size:30px;
+
+                       }
+
+QPushButton#shift_btn_active:hover{
+                       color:#1D2026;
+                       border: 1px solid #1D2026;
+
+                       }
+
+QPushButton#shift_btn1_active{
+                       border: 1px solid #1D2026;
+                       margin-right:20px;
+                       background-color:#4D90FE;
+                       color:white;
+                       font-weight:bold;
+                       font-size:30px;
+
+                       }
+
+QPushButton#shift_btn1_active:hover{
+                       color:#1D2026;
+                       border: 1px solid #1D2026;
+
+                       }
+
+QPushButton#logo_btn{
+
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/Lotus_Trangle.png");
+                       background-color:#36383E;
+                       border: 1px solid #4D90FE;
+
+                       }
+
+QPushButton#logo_btn:hover{
+
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/Lotus_Trangle.png");
+                       background-color:#36383E;
+                       border: 1px solid #4D90FE;
+
+                       }
+
+QPushButton#logo_btn_active{
+
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/Lotus_Trangle.png");
+                       background-color:#36383E;
+                       border: 1px solid #4D90FE;
+
+                       }
+
+QPushButton#logo_btn_inactive{
+
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/Lotus_Trangle.png");
+                       background-color:#36383E;
+                       border: 1px solid #1D2026;
+
+                       }
+
+
+
+QPushButton#profile_btn{
+
+
+                       background-color:#36383E;
+                       border: 1px solid #1D2026;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/RPrasad.jpg");
+
+
+                       }
+
+QPushButton#profile_btn:hover{
+
+
+                       background-color:#36383E;
+                       border: 1px solid #4D90FE;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/RPrasad.jpg");
+
+
+                       }
+
+QPushButton#profile_btn_active{
+
+
+                       background-color:#36383E;
+                       border: 1px solid #4D90FE;
+                       background-image:url("C:/Program Files/Lotus Dictionary/theme/dark_theme/asset/RPrasad.jpg");
+
+
+                       }
+
+
+
+QPlainTextEdit#detail_lbl{
+                      background-color:#1D2026;
+                      border: 1px solid #1A1B21;
+                      margin-left:5px;
+                      color:#5C616C;
+
+                      }
+
+QListWidget#index_list{
+                      color:#EDEDED;
+                      border: 1px solid #1D2026;
+                      background-color:#212329;
+                      }
+
+QListWidget#index_list:item{
+                      border:1px solid #1D2026;
+                      border-top:none;
+                      border-left:none;
+                      border-right:none;
+                      }
+
+QListWidget#index_list:item:hover{
+                      color:#4D90FE;
+                      border:2px solid #3079ed;
+                      border-left:none;
+                      background:#32343D;
+                      border-top:none;
+                      border-bottom:none;
+                      padding-left:5px;
+                      }
+
+QListWidget#index_list:item:selected{
+                      border:1px solid #3079ed;
+                      border-left:none;
+                      border-right:none;
+                      }
+
+QLineEdit#index_search{
+                      color:#EDEDED;
+                      border: 1px solid #1D2026;
+                      background-color:#575757;
+
+                       }
+QLineEdit#index_search:hover{
+                      color:#EDEDED;
+                      border: 1px solid #3079ed;
+                      background-color:#575757;
+
+                       }
+
+
